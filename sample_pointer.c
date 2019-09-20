@@ -64,7 +64,7 @@ int main(void)
 
 	//文字列後の結果
 	//NG
-	//出力:ab,Þgo
+	//出力:ab,dego
 	str[0] = 'd';
 	str[1] = 'e';
 	printf("%s,%s,%p,%p\n",str_ptr,str,&str_ptr,&str);
