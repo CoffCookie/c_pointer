@@ -5,7 +5,7 @@ void test(char *p);
 int main(void)
 {
     char a[9]="";
-	printf("before= %s %p \n",a,&a);
+    printf("before= %s %p \n",a,&a);
     test(&a[0]);
     printf("after= %s %p\n", a,&a); //コピー完了!
     return 0;
